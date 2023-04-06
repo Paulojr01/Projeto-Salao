@@ -1,9 +1,48 @@
 @charset "utf-8";
 
+:root{
+    --cor0:#BDE4FF;
+    --cor01:#8698D9;
+    --cor02:#AEA1F0;
+    --cor03:#B484D9;
+    --cor04:#F596FA;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+nav{
+    background-color:var(--cor03) ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.365);
+}
+
+nav > a{
+    color: var(--cor01);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 1s ;
+}
+
+nav >a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
+}
 
 
 
-.unha {
+.salao {
     display: flex;
     justify-content: center;
     padding: 10px;
