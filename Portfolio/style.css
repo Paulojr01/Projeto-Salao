@@ -6,6 +6,7 @@
     --cor02:#AEA1F0;
     --cor03:#B484D9;
     --cor04:#F596FA;
+    --cor05:#623387;
     
 }
 
@@ -14,20 +15,31 @@
     padding: 0px;
 }
 
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor0);
+}
+
+header h2{
+    font-family: "Montserrat", Sans-serif;
+    padding: 40px;
+    color: var(--cor0);
+}
+
 header{
-    background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor01));
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
 }
 nav{
-    background-color:var(--cor03) ;
+    background-color:var(--cor01) ;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.365);
 }
 
 nav > a{
-    color: var(--cor01);
+    color: var(--cor0);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -37,7 +49,7 @@ nav > a{
 
 nav >a:hover{
     background-color: var(--cor03);
-    color: var(--cor05);
+    color: var(--cor0);
 }
 
 
@@ -45,5 +57,8 @@ nav >a:hover{
 .salao {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 4px;
+    margin: 5px;
+    border: 5px;
+    
 }
