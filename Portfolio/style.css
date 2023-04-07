@@ -13,6 +13,7 @@
 *{
     margin: 0px;
     padding: 0px;
+ 
 }
 
 header h1{
@@ -52,13 +53,29 @@ nav >a:hover{
     color: var(--cor0);
 }
 
+body{
+    background-color: var(--cor03);
+}
 
 
-.salao {
+#container{
     display: flex;
     justify-content: center;
-    padding: 4px;
+    padding: 4px 5px;
     margin: 5px;
-    border: 5px;
-    
+    border: 5px;  
 }
+ div img {
+    display: flex;
+    border: 10px;
+    padding: 4px 5px;
+    margin: 2px;
+    width: 320px;
+    height: 205px;
+
+    border-radius: 10px; 
+
+}
+
+
+
