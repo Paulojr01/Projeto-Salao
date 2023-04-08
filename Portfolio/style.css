@@ -17,13 +17,15 @@
 }
 
 header h1{
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor0);
 }
 
 header h2{
+    font-size: 25px;
     font-family: "Montserrat", Sans-serif;
-    padding: 40px;
+    padding: 17px;
     color: var(--cor0);
 }
 
@@ -54,28 +56,58 @@ nav >a:hover{
 }
 
 body{
-    background-color: var(--cor03);
+    background-color: #FFFFFF;
 }
 
 
-#container{
+#salao{
     display: flex;
     justify-content: center;
     padding: 4px 5px;
     margin: 5px;
     border: 5px;  
 }
- div img {
+
+.espaçoSalao img {
     display: flex;
     border: 10px;
     padding: 4px 5px;
     margin: 2px;
     width: 320px;
     height: 205px;
-
     border-radius: 10px; 
+}
+
+main h1{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
 
 }
 
+#servico{
 
+    display: flex;
+    justify-content: center;
+    padding: 4px 5px;
+    margin: 5px;
+    border: 5px;  
 
+}
+
+.servicoSalão img {
+   
+    border: 10px;
+    padding: 4px 5px;
+    width: 320px;
+    height: 205px;
+    border-radius: 12px; 
+}
+
+.servicoSalão h4{
+
+    color: #0b0000;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.7);
+
+}
