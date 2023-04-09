@@ -70,6 +70,8 @@ body{
 }
 
 .espaçoSalao img {
+
+    
     display: flex;
     border: 10px;
     padding: 4px 5px;
@@ -77,6 +79,37 @@ body{
     width: 320px;
     height: 205px;
     border-radius: 10px; 
+}
+
+
+.quemSomos{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    
+  
+}
+.imgQuemSomos img{
+    display: flex;
+    justify-content: center;
+    width:410px;
+    height: 307px;
+}
+
+.texto{
+    width:410px;
+    height: 307px;
+}
+
+
+.texto p{
+    padding: 50px 25px 50px 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    
 }
 
 main h1{
@@ -91,9 +124,15 @@ main h1{
 #servico{
     display: flex;  
     justify-content: center;
-    
+    bottom: 10px;
+    padding-bottom: 20px; 
+    padding-top: 20px;   
 }
 
+#teste2{
+    margin-top: 25%;   
+ 
+}
 
 .servicoSalão{
     padding: 0;
