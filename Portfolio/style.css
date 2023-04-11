@@ -86,31 +86,52 @@ body{
     display: flex;
     padding: 50px;
     justify-content: center;
-    
-  
+    margin-top: 5%;
+
+}
+
+.imgQuemSomos{
+
+    padding: 0px 35px;
+
 }
 .imgQuemSomos img{
     display: flex;
     justify-content: center;
     width:410px;
     height: 307px;
+    margin-top: 60%;
+    border-radius: 12px;
+
 }
 
 .texto{
+    
     width:410px;
     height: 307px;
+    margin-top: 2%;
+    
 }
 
+.texto h2{
+    color: var(--cor0);
+    font-size: 40px;
+    text-align: center;
 
+}
 .texto p{
     padding: 50px 25px 50px 25px;
-    color: black;
+    color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
-    
+    letter-spacing: 0px;
+    animation-delay: 1600ms; 
+    :
 }
+    
+
 
 main h1{
     color: var(--cor0);
@@ -130,7 +151,7 @@ main h1{
 }
 
 #teste2{
-    margin-top: 25%;   
+    margin-top: 14%;   
  
 }
 
@@ -164,8 +185,6 @@ main h1{
     top: 0%;
     left: 0%; 
 }
-
-
 
 
 
