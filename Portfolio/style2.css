@@ -128,3 +128,17 @@ body{
 
     
 }
+
+.conhecaNossoTrabalho{
+    margin: 12%;
+}
+
+.conhecaNossoTrabalho h1{
+    color: var(--cor0);
+
+}
+
+.conhecaNossoTrabalho img{
+    height: 250px;
+    width: 250px;
+}
